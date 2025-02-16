@@ -14,6 +14,8 @@ while True:
         answer = input("You hear Lawrence also strugling with his chains. Do you confront him?  (yes/no) ")
         if answer == "yes":
             print("You confront Lawrence about how you got here.", "\n")
+            print("Lawrence notices a clock on the wall that looks brand new.", "\n")
+            print("You find an envelope in your pocket with your name on it. Inside, it contains a tape with PLAY ME written on the outside", "\n")
             # answer = input("")
 
         elif answer == "no":
@@ -32,8 +34,3 @@ while True:
     else:
         print("This is the room you die in because you failed to choose someone.", "\n", "Game over.")
         break
-
-
-
-
-# print("You both find an envelope in your pocket with your name on it. Inside, you find a tape with “PLAY ME” written on the outside.", "\n")
